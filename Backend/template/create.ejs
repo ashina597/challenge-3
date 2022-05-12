@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .header{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        .message{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <div class="header">
+            <h3>My Todo Website</h3>
+            </div>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <div class="message">
+                <p>Hello there,</p>
+                <p>You have been assigned on the following task:</p>
+                <div class="task">
+                <p><b>Task Title:</b> <%=title%></p>
+                <p><b>Task Description:</b> <%=description%></p>
+                <p><b>Completion date:</b> <%=date%></p>
+                </div>
+                <p class="footer">For more information or enquiries log in to your account or contact ashinabarasa@gmail.com</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
