@@ -1,0 +1,52 @@
+<DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="challenge3.css">
+    </head>
+    <body>
+        <div class="header"><h1>MyTODO WEBSITE</h1></div>
+        <div class="container"> 
+            <div class="taskmanager">  
+            <div class="createTask" id="myform">
+                <h3 id="header">Create A Task</h3>
+                <p class="warning"></p>
+                <div class="input">
+                <label for="title">Task Title</label>
+                <input type="text" id="title" name="title">
+                <label for="description"><br>Task Description</label>
+                <input type="text" id="description" name="description">
+                <label for="date"><br>Task completion date</label>
+                <input type="date" id="date" name="date">
+                <label for="email">Assigned To</label>
+                <input type="email" id="email" name="email">
+                </div>
+                <button type="submit" class="create" onclick="create()">Create</button>
+            </div>    
+            <div class="editTask" id="editform">
+                <h3 id="editheader">Edit A Task</h3>
+                <p class="editwarning"></p>
+                <div class="input">
+                <label for="edittitle">Task Title</label>
+                <input type="text" id="edittitle" name="title">
+                <label for="editdescription"><br>Task Description</label>
+                <input type="text" id="editdescription" name="description">
+                <label for="editdate"><br>Task completion date</label>
+                <input type="date" id="editdate" name="date">
+                <label for="editemail">Assigned To</label>
+                <input type="email" id="editemail" name="editemail">
+                </div>
+                <button type="submit" class="edit">Edit</button>
+            </div> 
+            <div class="completedtasks">
+                <h3>Completed tasks</h3>
+            </div>
+            </div>         
+            <div class="myTasks">
+                <h3>My tasks</h3>
+            </div>
+        </div>
+        <script src="challenge3.js"></script>
+    </body>
+</html>
